@@ -1,9 +1,9 @@
-import { ethers } from "ethers";
 import { createContext, useState, useEffect } from "react";
 import { ABI } from "../Utils/abi";
 import { useNavigate } from 'react-router-dom';
-export const EthersContext = createContext(null);
+import { ethers } from "ethers";
 const { ethereum } = window
+export const EthersContext = createContext(null);
 export default function Ethers({ children }) {
    const navigate = useNavigate()
   const contractAddress = "0x15aee8b62699536b34f225937875216b87be839f"
