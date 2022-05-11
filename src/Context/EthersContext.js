@@ -1,4 +1,4 @@
-import { ethers } from "https://cdn.ethers.io/lib/ethers-5.0.umd.min.js";
+import { ethers } from "ethers";
 import { createContext, useState, useEffect } from "react";
 import { ABI } from "../Utils/abi";
 import { useNavigate } from 'react-router-dom';
