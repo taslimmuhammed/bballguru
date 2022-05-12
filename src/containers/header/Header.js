@@ -22,8 +22,8 @@ const Header = () => {
 
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">Sales Have started</h1>
-        <p>Limited No Of Books Only available . Buy the Coupon to reserve your acces to the book now. </p>
+        <h1 className="gradient__text">Welcome To Gentritrying</h1>
+        <p> A Web3 NFT Book Revolution </p>
         <div className="gpt3__header-content__input">
           <div>Price of a token  : </div>
           <div className='price_tabele'>
